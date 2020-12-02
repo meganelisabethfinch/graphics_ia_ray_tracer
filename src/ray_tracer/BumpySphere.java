@@ -1,4 +1,4 @@
-package uk.ac.cam.cl.gfxintro.crsid.tick1;
+package ray_tracer;
 
 import java.io.File;
 import java.io.IOException;

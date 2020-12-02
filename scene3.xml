@@ -1,0 +1,13 @@
+<scene>
+    <ambient-light colour="#010101" intensity="2"/>
+    <point-light x="-0.5" y="1.7" z="1.2" colour="#ff0015" intensity="50"/>
+    <point-light x="3.7" y="1.7" z="1.5" colour="#0af7ff" intensity="50" />
+    <point-light x="2" y="-0.5" z="0" colour="#aaaaff" intensity="80" />
+
+    <sphere x="-0.1" y="-0.5" z="3" radius="0.3" colour="#ff083d" />
+    <sphere x="-0.8" y="-0.3" z="3.3" radius="0.2" colour="#ff3dbe" />
+    <sphere x="0.4" y="0.35" z="4.2" radius="0.6" colour="#2ae0f5" />
+
+    <plane x="-0.3" y="0.0622" z="4.68013" nx="0" ny="4.2239089012146" nz="-2.180126190185547" colour="#1a0e42"/> <!-- horizontal plane -->
+    <plane x="1.5" y="1" z="4.68013" nx="1" ny="-4.180126190185547" nz="-2.2239089012146" colour="#1a0e42"/> <!-- wall -->
+</scene>

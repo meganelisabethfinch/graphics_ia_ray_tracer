@@ -1,4 +1,4 @@
-package uk.ac.cam.cl.gfxintro.crsid.tick1;
+package ray_tracer;
 
 import java.util.LinkedList;
 import java.util.List;

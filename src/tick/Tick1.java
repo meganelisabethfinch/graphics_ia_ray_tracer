@@ -1,4 +1,8 @@
-package uk.ac.cam.cl.gfxintro.crsid.tick1;
+package tick;
+
+import ray_tracer.Renderer;
+import ray_tracer.Scene;
+import ray_tracer.SceneLoader;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -8,7 +12,7 @@ import javax.imageio.ImageIO;
 
 public class Tick1 {
 	// Default input and output files
-	public static final String DEFAULT_INPUT = "test1.xml";
+	public static final String DEFAULT_INPUT = "scene1.xml";
 	public static final String DEFAULT_OUTPUT = "output.png";
 	
 	public static final int DEFAULT_BOUNCES = 2; // Default number of ray bounces

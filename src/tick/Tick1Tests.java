@@ -1,4 +1,6 @@
-package uk.ac.cam.cl.gfxintro.crsid.tick1;
+package tick;
+
+import ray_tracer.*;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

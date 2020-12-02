@@ -1,4 +1,4 @@
-package uk.ac.cam.cl.gfxintro.crsid.tick1;
+package ray_tracer;
 
 import java.awt.image.BufferedImage;
 import java.util.List;
@@ -27,7 +27,7 @@ public class Renderer {
 	 * Trace the ray through the supplied scene, returning the colour to be rendered.
 	 * The bouncesLeft parameter is for rendering reflective surfaces.
 	 */
-	protected ColorRGB trace(Scene scene, Ray ray, int bouncesLeft) {
+	public ColorRGB trace(Scene scene, Ray ray, int bouncesLeft) {
 
 		// Find closest intersection of ray in the scene
 		RaycastHit closestHit = scene.findClosestIntersection(ray);
@@ -74,7 +74,6 @@ public class Renderer {
 			// Return total illumination
 			return directIllumination.add(reflectedIllumination);
 		}
-     	// return this.illuminate(scene, object, P, N, O);
 	}
 
 	/*

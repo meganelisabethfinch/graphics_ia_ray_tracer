@@ -1,4 +1,4 @@
-package uk.ac.cam.cl.gfxintro.crsid.tick1;
+package ray_tracer;
 
 public class Sphere extends SceneObject {
 
@@ -74,17 +74,14 @@ public class Sphere extends SceneObject {
 
 		// Take the smallest positive value of s
 		if (s1 > 0 && s2 > 0) {
-			// If both s1 and s2 are positive
 			if (s1 < s2) {
 				s = s1;
 			} else {
 				s = s2;
 			}
 		} else if (s1 > 0) {
-			// If only s1 is positive
 			s = s1;
 		} else if (s2 > 0) {
-			// If only s2 is positive
 			s = s2;
 		} else {
 			return new RaycastHit();
